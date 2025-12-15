@@ -6,7 +6,7 @@ Our FPGA emulator for the Apple II. This emulator does not have a Disk Operating
 All ROMs, games, and simulator files are located in IP files folder
 
 **DISCLAIMER** This is intended to run on the Basys3FPGA board and the NexysA7 FPGA board. All other boards will not work with the current configuration!
-Also note, this will only run if you have Vivado Design Suite!.
+Also note, this will only run if you have Vivado Design Suite!
 
 **insts** To run any project version on the FPGA, find the bit file in the project folder and run that bit file on Vivado for the FPGA.
 

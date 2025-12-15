@@ -7,6 +7,8 @@ All ROMs, games, and simulator files are located in IP files folder
 
 BIN folder has the binary files for non-volatile memory
 
+Scripts contain the scripts used to convert .bin files to hex files for memory population
+
 **DISCLAIMER** This is intended to run on the Basys3FPGA board and the NexysA7 FPGA board. All other boards will not work with the current configuration!
 Also note, this will only run if you have Vivado Design Suite!
 

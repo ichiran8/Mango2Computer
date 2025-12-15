@@ -15,9 +15,9 @@ Also note, this will only run if you have Vivado Design Suite!
 More Instructions:
 
 This will be located within the following ProjectFiles Folder:
-1) apple2_lode.bit will run loderunner implementation
-2) apple2_frogger.bit will run frogger
-3) apple2_applesoft.bit will run apple soft
+1) apple2_lode.bit will run loderunner implementation without terminal
+2) apple2_frogger.bit will run frogger without terminal
+3) apple2_applesoft.bit will run apple soft with terminal
 
 Team organization:
 

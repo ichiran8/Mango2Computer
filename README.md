@@ -3,8 +3,7 @@ Our FPGA emulator for the Apple II. This emulator does not have a Disk Operating
 
 **Apple2_top.sv** in the main directory. contains all of the systemVerilog files packaged into one file for ease of access. If you would like to view the files separately, you can do so in the SystemVerilogFiles folder. 
 
-All ROMs, games, and simulator files are located in IP files folder
-
+**All ROMs, games, and simulator files are located in IP files folder;Credit** to AppleSoft, AppleWIN, Arlet, creators of LodeRunner, and creators of Frogger for the software, game, simulation, and verification of this project. 
 BIN folder has the binary files for non-volatile memory
 
 Scripts contain the scripts used to convert .bin files to hex files for memory population

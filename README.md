@@ -1,19 +1,23 @@
 # Mango2 Computer Emulator
 Our FPGA emulator for the Apple II. This emulator does not have a Disk Operating System and only supports 64 KB of memory.
 
+
+**EDIT 12/27/25** We will be attempting to support the Apple DOS in the coming months using an SPI Core with our own AXI controller (likely(?)) to no longer require using a snap shot to load games!
+
 **Apple2_top.sv** in the main directory. contains all of the systemVerilog files packaged into one file for ease of access. If you would like to view the files separately, you can do so in the SystemVerilogFiles folder. 
 
 **All ROMs, games, and simulator files are located in IP files folder;Credit** to AppleSoft, AppleWIN, Arlet, creators of LodeRunner, and creators of Frogger for the software, game, simulation, and verification of this project. 
-BIN folder has the binary files for non-volatile memory
 
-Scripts contain the scripts used to convert .bin files to hex files for memory population
+**BIN folder** has the binary files for non-volatile memory. If you would this to work on the FPGA even after power has been shut off, use the bin file and program the FPGa with the bin file.
+
+**Scripts** contain the scripts used to convert .bin files to hex files for memory population. This was used to extract the binary data from old games and simulators
 
 **DISCLAIMER** This is intended to run on the Basys3FPGA board and the NexysA7 FPGA board. All other boards will not work with the current configuration!
 Also note, this will only run if you have Vivado Design Suite!
 
 **insts** To run any project version on the FPGA, find the bit file in the project folder and run that bit file on Vivado for the FPGA.
 
-More Instructions:
+**More Instructions:**
 
 This will be located within the following ProjectFiles Folder:
 1) apple2_lode.bit will run loderunner implementation without terminal
